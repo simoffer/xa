@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.hero{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile-h2 h2{
+    margin-left: 10px;
+    font-size: 19px;
+    color: #333333;
+}
+
+.hero_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.hero_buttons a{
+    padding: 13px 30px;
+    background: #0793CA;
+    color: #fff;
+    margin-top: 10px;
+    width: 345px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero_pictures{
+    margin-top: 25px;
+}
+
+.profile_image img{
+    border-radius: 50px;
+    width: 50px;
+}
+
+.picture{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+    margin-left: 7px;
+}
+
+a.picture_link{
+    width: 160px;
+    height: 160px;
+    display:block;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.link1{
+    background-image: url(https://res.cloudinary.com/didfcyxav/image/upload/v1691776387/ad1_voacaq.png);
+}
+
+.link2{
+    background-image: url(https://res.cloudinary.com/didfcyxav/image/upload/v1691776502/ad2_ew5qhi.png);
+}
+
+.link3{
+    background-image: url(https://res.cloudinary.com/didfcyxav/image/upload/v1691776506/ad3_lf79xq.png);
+}
+
+.link4{
+    background-image: url(https://res.cloudinary.com/didfcyxav/image/upload/v1691776515/ad4_o6cvo7.png);
+}
+
+.link5{
+    background-image: url(https://res.cloudinary.com/didfcyxav/image/upload/v1691776521/ad5_cq5065.png);
+}
+
+.link_wrap a:nth-child(2){
+    width: 160px;
+    display: block;
+    color: #0789BC;
+    border: 1px solid #0789BC;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.link_wrap a:nth-child(2) p{
+    margin-left: 45px;
+}
